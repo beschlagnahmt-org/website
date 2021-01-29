@@ -17,6 +17,10 @@ category: capter
 
 In diesem Kapitel geben wir die einen Überblick über die Betriebssysteme, die du auf deinem Geräten nutzen kannst. Es geht dabei um eine grundsätzliche Empfehlung, detailerte Tipps findest du in den anderen Kapitel.
 
+## Grundsätzliches zu Sicherheit
+
+Nutze nur Geräte und Betriebsysteme, die noch mit Sicherheitsupdates versorgt werden. In Netz findest Du Informationen darüber wie lange Dein [Windows](https://support.microsoft.com/de-de/help/13853/windows-lifecycle-fact-sheet), Linux, [MacOS](https://www.apple.com/de/macos/how-to-upgrade/) oder [iOS](https://de.wikipedia.org/wiki/Versionsgeschichte_von_iOS#Aktuelle_Versionen) Sicherheitsupdates erhält. Bei Android-Smartphones ist es oft schwierig eine Aussage zu bekommen, ihr solltet aber kein Gerät benutzen, dessen [Sicherheitspatch-Level älter](https://www.tutonaut.de/android-version-und-sicherheitspatch-level-herausfinden/) als 6 Monate ist. Vergiss auch hier nicht deine anderen Geräte z.B. deinen schon erwähnten Router.
+
 ## Smartphone
 
 ### Android
