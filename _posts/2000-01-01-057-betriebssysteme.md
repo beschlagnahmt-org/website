@@ -15,6 +15,8 @@ category: capter
 {:toc}
 </details>
 
+In diesem Kapitel geben wir die einen Überblick über die Betriebssysteme, die du auf deinem Geräten nutzen kannst. Es geht dabei um eine grundsätzliche Empfehlung, detailerte Tipps findest du in den anderen Kapitel.
+
 ## Smartphone
 
 ### Android
@@ -63,4 +65,7 @@ Da das Phänomen "CustomROMS" für iOS Geräte keine Rolle spielt, gehen wir hie
 
 ### Linux
 
+Grundsätzlich vertrauenswürdiger. Verschlüsselung. Hardware vorher prüfen.
+
 ### MacOS
+
