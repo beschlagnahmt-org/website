@@ -15,7 +15,7 @@ category: capter
 {:toc}
 </details>
 
-In diesem Kapitel geben wir die einen Überblick über die Betriebssysteme, die du auf deinem Geräten nutzen kannst. Es geht dabei um eine grundsätzliche Empfehlung, detailerte Tipps findest du in den anderen Kapitel.
+In diesem Kapitel geben wir die einen Überblick über die Betriebssysteme, die du auf deinen Geräten nutzen kannst. Es geht dabei um eine grundsätzliche Empfehlung, detailierte Tipps findest du in den anderen Kapiteln.
 
 ## Grundsätzliches zu Sicherheit
 
@@ -23,26 +23,34 @@ Nutze nur Geräte und Betriebsysteme, die noch mit Sicherheitsupdates versorgt w
 
 ## Smartphone
 
+An der Stelle nochmal der Hinweis: Bei Aktionen sollte das Smartphone in jedem Fall zuhause gelassen werden, falls ihr kein Aktionshandy braucht und zusätzlich genau wisst was ihr tut.
+
 ### Android
 
-Wie wir bereits gelesen haben, gibt es für Cops einige Möglichkeiten, über euer Smartphone eure Daten abzugreifen. Aus dem Grund scheint es natürlich sinnvoll, sich damit auseinanderzusetzen, wie ihr euer Endgerät vor solcher Einsicht schützen könnt. Eine Möglichkeit die dafür in Frage kommt, ist das Betriebssystem eures Smartphones zu wechseln. Da das auch einige Tücken mitbringt und nicht immer der beste Lösungsansatz sein muss, bieten wir nachfolgend unsere Sicht auf die Situation.
+#### Argumente für einen Betriebsystem-Wechsel
 
-An der Stelle nochmal der Hinweis: auf Aktionen sollte das Smartphone in jedem Fall zuhause gelassen werden, falls ihr kein Aktionshandy braucht und zusätzlich genau wisst was ihr tut.
+- Viele Android-Geräte werden vom Herstekker nur über einen kurzen Zeitraum mit Sicherheits-Updates versorgt. Dadurch sind die Geräte anfällig gegen viele Arten von Angriffen, z.B. durch Apps, die ungeschlossene Sicherheitslücken auf den Gerät nutzen.   
+ - Praktisch alle Android-Smartphones kommen ab Werk mit den Google-Diensten. Diese sind tief ins System integriert und es ist praktisch unmöglich Datenabflüsse zu Google zu verhindern. Google hingegen ist mit der Kooperation mit den Repressionsbehörden verpflichtet.
+ - 
 
-#### Warum das Betriebssystem wechseln?
+#### Argumente gegen einen Betriebsystem-Wechsel
+
+https://source.android.com/security/verifiedboot
+
+
 
 Damit ihr überhaupt soweit kommt, über die Wahl eures zukünftigen Betriebssystems zu philosophieren, müsst ihr in jedem Fall den Bootloader öffnen. Da liegt aber schon das erste Problem: 
-Die überwiegende mehrheit der Betriebssysteme belassen es einfach dabei und sperren den Bootloader nicht im Anschluss der Installation wieder. Dies bietet Angreifer:innen die Möglichkeit, auf diesem Weg eigene Software ins System zu schleusen und so eure Daten abzugreifen.
+Die überwiegende Mehrheit der alternativen Betriebssysteme belassen es einfach dabei und sperren den Bootloader im Anschluss der Installation nicht wieder. Dies bietet Angreifer:innen die Möglichkeit, eigene Software ins System zu schleusen und so eure Daten abzugreifen.
 Ein weiteres Problem mit CustomROMS ist die Sorglosigkeit um Umgang mit ihnen. Die überwiegende Mehrheit möchte es vermutlich ausreizen, jetzt die volle Kontrolle über ihr Smartphone zu haben und installieren parallel auch gleich Software wie Magisk, die Anwendungen den Root-Zugriff auf euer Gerät ermöglichen.
-Aber auch das bietet wieder einen enormen Angriffsvektor für Schadsoftware, der nun alle Möglichkeiten eures Gerätes zur Verfügung stehen, sollte sie Root-Zugriff erlangen. Und wenn wir schon beim unbedarften installieren von Software sind: GoogleApps ist da ebenfalls so ein Kandidat, der oft unnötigerweise mitinstalliert wird.
+Aber auch das bietet wieder einen enormen Angriffsvektor für Schadsoftware, der nun alle Möglichkeiten eures Gerätes zur Verfügung stehen, sollte diese Root-Zugriff erlangen. Und wenn wir schon beim unbedarften installieren von Software sind: GoogleApps ist da ebenfalls so ein Kandidat, der oft unnötigerweise mitinstalliert wird.
 Es ist grundsätzlich davon abzuraten Konzerne tief in euer Smartphone zu lassen, die zweifelsohne mit den Repressionsbehörden kooperieren.
 
 ##### Bei welchen Betriebssystemen ihr diese Probleme nicht habt
 
 Es gibt auch Betriebssysteme, da eine echte Alternative darstellen und den Datenschutz eures Geräts tatsächlich kompromisslos erhöhen. Uns sind während unserer Recherche da allerdings nur 2 Kandidaten aufgefallen: GrapheneOS & CalyxOS.
 Beide Betriebssysteme bestehen darauf, dass im Anschluss der Installation der Bootloader wieder verschlossen wird. Somit ist sichergestellt, dass nur vom Betriebssystem zur Verfügung gestellte Updates installiert werden können. Diese funktionieren durch den integriegten Updater unkompliziert.
-Zudem erlauben sie keine Roots und GoogleApps lassen sich ebenfalls nicht installieren (obwohl CalyxOS eine Kompromisslösung anbietet, dazu später mehr).
-GrapheneOS verhält sich in der Verwendung nicht anders als ein gewöhnliches aAndroid Telefon, kommt aber unter der Haube mit einigen teils sehr technischen Sicherheitsvorkehrungen. Um einige davon kurz zu benennen: 
+Zudem erlauben sie keinen Root-Zugriff und GoogleApps lassen sich ebenfalls nicht installieren (obwohl CalyxOS eine Kompromisslösung anbietet, dazu später mehr).
+GrapheneOS verhält sich in der Verwendung nicht anders als ein gewöhnliches Android Telefon, kommt aber unter der Haube mit einigen teils sehr technischen Sicherheitsvorkehrungen. Um einige davon kurz zu benennen: 
 - Standardmäßige Geräteverschlüsselung
 - Sicherere & zufällige Speicherzuweisung
 - Zufällige Zuweisung der normalerweise eindeutigen Geräteadresse (MAC-Randomisierung)
@@ -61,11 +69,13 @@ Falls ihr es doch verwenden wollt, können wir euch https://plexus.techlore.tech
 
 ### iOS
 
-Da das Phänomen "CustomROMS" für iOS Geräte keine Rolle spielt, gehen wir hier nur auf Android Smartphones ein.
+Das Phänomen "CustomROMS" spielt für iOS-Geräte keine Rolle. Seht auch davon ab bei euerem Gerät einen sogenannten 'Jailbreak' durch zu führen, da dies die Gerätsicherheit deutlich absenkt.
 
 ## Laptop / PC
 
 ### Windows
+
+
 
 ### Linux
 
